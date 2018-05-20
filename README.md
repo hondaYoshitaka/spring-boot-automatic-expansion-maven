@@ -4,7 +4,7 @@ spring-boot-automatic-expansion-maven
 ## Getting Started
 1. Start web application.
 ```bash
-% mvnw spring-boot:run
+% ./mvnw spring-boot:run
 ```
 
 2. Access actuator endpoint.
