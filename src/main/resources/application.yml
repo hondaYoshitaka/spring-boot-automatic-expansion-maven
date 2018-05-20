@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
+
+info:
+  application:
+    name:             @project.build.finalName@
+    version:          @project.version@
+    build-timestamp:  @maven.build.timestamp@
